@@ -1,0 +1,76 @@
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  
+  .data-table-header input {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  .add-customer-btn {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: #f9f9f9;
+  }
+  
+  thead th {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tbody tr.selected {
+    background-color: #e2e6ea;
+  }
+  
+  tbody td {
+    padding: 0.5em;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  .pagination button {
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination span {
+    padding: 0.5em 1em;
+  }
+  
